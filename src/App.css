@@ -1,5 +1,12 @@
-.App {
-  text-align: center;
+.App-scrollable {
+  position: fixed;
+  bottom: 0%;
+  top: 0%;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 10%;
+  height: 90%;
+  background: aliceblue;
 }
 
 .App-logo {
@@ -36,3 +43,5 @@
     transform: rotate(360deg);
   }
 }
+
+@import url("https://fonts.googleapis.com/css?family=Rozha+One");
